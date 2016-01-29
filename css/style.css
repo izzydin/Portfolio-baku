@@ -1,0 +1,373 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?8rma8i');
+    src:    url('../fonts/icomoon.eot?8rma8i#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.ttf?8rma8i') format('truetype'),
+            url('../fonts/icomoon.woff?8rma8i') format('woff'),
+            url('../fonts/icomoon.svg?8rma8i#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+    content: "\e900";
+}
+.icon-mail2:before {
+    content: "\e901";
+}
+.icon-google-plus2:before {
+    content: "\e916";
+}
+.icon-facebook2:before {
+    content: "\e902";
+}
+body{
+    font-size: 16px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    background: url(../images/black-brick-wall-wallpaper-1.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.header__menu-icon{
+    color: #ef4135;
+    font-size: 35px;
+    padding-top: 12px;
+    position: absolute;
+    right: 7%;
+}
+.header__menu-bar{
+    display: none;
+}
+.page-salutations{
+    font-size: 45px;
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 350px 0;
+    font-size: 35px;
+}
+.page-salutations p{
+    margin: 0;
+    color: #ffffff;
+}
+.page-salutations p span{
+    color: #ef4135;
+}
+.fixed-menu{
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+.fixed-menu ul{
+  list-style: none;
+  margin: 0;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+}
+.fixed-menu ul li{
+  display: inline-block;
+  width: 31%;
+  border-radius: 5px solid #FA7C02;
+}
+.fixed-menu ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  font-weight: 100;
+  max-height: 16px;
+  border-radius: 5px solid #FA7C02;
+}
+.social-media{
+    position: absolute;
+    bottom: 70px;
+    right: 27%;
+}
+.social-media ul{
+    list-style: none;
+    margin: 0;
+    height: 50px;
+    padding: 0;
+}
+.social-media ul li{
+     display: inline-block;
+}
+.social-media ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px solid #FA7C02;
+}
+.nav{
+    text-decoration: underline;
+}
+.profile__experience{
+    padding-top: 70px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 18px;
+}
+.experience__parragrah{
+    color: #ffffff;
+    border: 2px solid;
+    padding: 12px;
+}
+.parragrah__title{
+    text-decoration: underline;
+}
+.experience__parragrah p{
+
+}
+.experience__parragrah p span{
+    color: #5c6992;
+}
+.experience__photo{
+ display: none;
+}
+.my-self{
+    padding-top: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.my-self__parragrah{
+    color: #ffffff;
+    border: 2px solid;
+    padding: 12px;
+}
+.my-self__parragrah p{
+
+}
+.my-self__parragrah p span{
+    color: #5c6992;
+}
+.works-section{
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.works-section__jobs{
+    text-align: center;
+    margin-top: 25px;
+}
+.works-section__jobs-done img{
+
+}
+.jobs--bcg{
+    height: 200px;
+    widows: 250px;
+    background: url(../images/bcg.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.jobs--bcg p{
+    opacity: 0;
+}
+.jobs--blank{
+    height: 200px;
+    widows: 250px;
+    background: url(../images/white-wall.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.jobs--blank p{
+    opacity: 0;
+}
+.thanks-parragrah{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    margin: 115px 0 70px 0;
+}
+.project__image{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.project{
+    padding-top: 100px;
+}
+.project__info{
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: justify;
+    color: #ffffff;
+    margin-top: 40px;
+}
+.project__info p span{
+    color: #5c6992;
+}
+.project__info p{
+    padding: 140px 0;
+}
+@media screen and (min-width: 768px){
+    .header__menu-icon{
+        display: none;
+    }
+    .fixed-menu{
+        display: none;
+    }
+    .header__menu-bar{
+      z-index: 10;
+      display: block;
+      left: 0;
+      bottom: 0px;
+      width: 100%;
+      background-color: #1a1a1a;
+    }
+    .header__menu-bar ul{
+      list-style: none;
+      margin: 0;
+      height: 50px;
+      padding: 0;
+      font-size: 20px;
+    }
+    .header__menu-bar ul li{
+      display: inline-block;
+      width: 31%;
+      border-radius: 5px solid #FA7C02;
+    }
+    .header__menu-bar ul li a{
+      text-decoration: none;
+      color: #ffffff;
+      display: block;
+      padding: 15px;
+      text-align: center;
+      font-weight: 100;
+      max-height: 16px;
+      border-radius: 5px solid #FA7C02;
+    }
+    .social-media{
+        position: absolute;
+        bottom: 70px;
+        right: 17%;
+    }
+    .page-salutations{
+        font-size: 80px;
+        padding: 350px 0;
+    }
+    .profile__experience{
+        padding-top: 200px;
+        max-width: 90%;
+        margin: 0 auto;
+        text-align:center;
+        font-size: 20px;
+    }
+    .experience__parragrah{
+        color: #ffffff;
+        border: 2px solid;
+        padding: 12px;
+        width: 40%;
+        vertical-align: top;
+        display: inline-block;
+        text-align: justify;
+    }
+    .experience__photo{
+        display: inline-block;
+        margin: 0px 0 0 30px;
+        width: 40%;
+        padding-top: 0;
+    }
+    .experience__photo img{
+        width: 490px;
+        height: 284px;
+    }
+    .my-self{
+        padding-top: 235px;
+    }
+    .my-self__parragrah{
+        font-size: 25px;
+    }
+    .works-section__jobs{
+        height: 500px;
+        margin-top: 65px;
+    }
+    .social-media{
+        margin-bottom: -65px;
+    }
+    .thanks-parragrah p{
+        padding-bottom: 15px;
+    }
+    .jobs--bcg__cover{
+        display: block;
+        background: #000000;
+        width: 100%;
+        height: 500px;
+        opacity: 0;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .jobs--bcg__cover p{
+        padding-top: 18%;
+        font-size: 40px;
+        text-decoration: none;
+        opacity: 1;
+    }
+    .jobs--bcg__cover:hover{
+        opacity: 0.5;
+    }
+    .project{
+        padding-top: 100px;
+    }
+    .project__image{
+        max-width: 90%;
+        margin: 0 auto;
+        height: 600px;
+    }
+    .project__info{
+        max-width: 80%;
+        margin: 0 auto;
+        font-size: 25px;
+        text-align: justify;
+        color: #ffffff;
+        margin-top: 90px
+    }
+    .project__info p{
+        padding: 80px;
+    }
+    .icon-mail2:hover{
+        color: #ef4135;
+    }
+    .icon-google-plus2:hover{
+        color: #ef4135;
+    }
+    .icon-facebook2:hover{
+        color: #ef4135;
+    }
+    .menu-bar__nav-bar li:hover a{
+        color: #ef4135;
+    }
+}
